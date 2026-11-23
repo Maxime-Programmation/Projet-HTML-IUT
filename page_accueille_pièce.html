@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
  <head>
+ <link rel="stylesheet" href="css/style.css" media="all">
+ <link rel="stylesheet" href="css/style.css" media="(max-width=600px)">
  <title>Apprentissage</title>
  <meta charset="utf-8">
  </head>
+ 
+ <header>
+        <h1><a href="index.html" class="titre">Accueil</a></h1>
+
+        <div class="conteneur">
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Menu</a>
+						<ul class="sousmenu">
+							<li><a href="cavalier.html">Le Roi</a></li>
+							<li><a href="#">Les grands joueurs</a></li>
+							<li><a href="#">Les grands joueurs</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+            <button id="styleAlternatif">Style alternatif</button>
+        </div>
+ </header>
+ 
  <body>
-	 <h1><strong>Apprentissage</strong></h1>
-   Un jeu d'échec est composé de plusieurs pièce. Au total, il y a 16 pièces d'échec pour 6 différentes pièces.<br>
-   Chaque joueur possède :
-   <blockquote>- 1 roi<br>
+   <h1><strong>Apprentissage</strong></h1>
+   <p>Un jeu d'échec est composé de plusieurs pièce. Au total, chaque joueur possède 16 pièces d'échec pour 6 différentes pièces.<br>
+   Il possède chacun respectivement:<br>
+   - 1 roi<br>
    - 1 reine<br>
    - 2 cavaliers<br>
    - 2 fous<br>
-   - tour roi<br>
+   - 2 tour<br>
    - 8 pions<br>
-     <img src="deplacement-fou-2917321346.jpg" alt="plateau_avec_pièce"></blockquote>
-   Chaque pièce on leur force et leur faiblesse.
-	 <button type="button">Le Roi</button>
-	 <button type="button">La Reine</button>
-	 <button type="button">Le Cavalier</button>
-	 <button type="button">Le Fou</button>
-	 <button type="button">La Tour</button>
-	 <button type="button">Le Pion</button>
+   Chaque pièce on leur force et leur faiblesse.</p>
+   <img src="echiquier-3161117932.jpg" alt="plateau_avec_pièce">
+    <table border="1">
+		<tr>
+			<td><button type="button"><a href="roi.html">Le Roi</a></button><br>
+			<img src="pngtree-chess-piece-on-transparent-background-png-image_12653993-2058649908.png" alt="pièce1"></td>
+			<td><button type="button"><a href="reine.html">La Reine</a></button><br>
+			<img src="pngtree-chess-piece-on-transparent-background-png-image_12653993-2058649908.png" alt="pièce1"></td>
+		</tr>
+		<tr>
+			<td><button type="button"><a href="cavalier.html">Le Cavalier</a></button><br>
+			<img src="pngtree-chess-piece-on-transparent-background-png-image_12653993-2058649908.png" alt="pièce1"></td>
+			<td><button type="button"><a href="fou.html">Le fou</a></button><br>
+			<img src="pngtree-chess-piece-on-transparent-background-png-image_12653993-2058649908.png" alt="pièce1"></td>
+		</tr
+		<tr>
+			<td><button type="button"><a href="fou.html">Le fou</a></button><br>
+			<img src="pngtree-chess-piece-on-transparent-background-png-image_12653993-2058649908.png" alt="pièce1"></td>
+			<td><button type="button"><a href="pion.html">Le Pion</a></button><br>
+			<img src="pngtree-chess-piece-on-transparent-background-png-image_12653993-2058649908.png" alt="pièce1"></td>
+		</tr
+    </table>
  </body>
 </html>
