@@ -144,6 +144,30 @@ p {
 	font-family: Arial;
 }
 
+.apprentissage {
+	display: flex;
+	justify-content: space-around
+}
+
+.colonne1 {
+	img{
+		height: 1vw;
+		weight: 1vw;
+	}
+	display: flex;
+	justify-content: center
+}
+
+.colonne2 {
+	display: flex;
+	justify-content: space-between
+}
+
+.colonne3 {
+	display: flex;
+	justify-content: center
+}
+
 .cavalier {
 	display: flex;
 	justify-content: space-around
