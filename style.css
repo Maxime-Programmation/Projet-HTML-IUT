@@ -100,16 +100,30 @@ a{
     border-radius: 5px;
 }
 
-#form{
-    flex-direction: column;
-    margin-bottom: 5vw;
+#form {
+    background-color: white;
+    max-width: 450px;
+    margin: 0 0 5vw 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.origine-echec{
+#form input[type="text"],
+#form textarea {
+    width: 100%;
+    box-sizing: border-box; /* évite que le champ déborde */
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.histoire-echecs{
     margin-bottom: 7.5vw;
 }
-
-/*Revoir*/
 
 .menu {
     list-style: none;
@@ -122,12 +136,12 @@ a{
     width: auto;
 }
 
-.menu li a:link, .menu li a:visited {
+.menu li a {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #FFF;
-    background: #293245;
+    background: rgb(19, 19, 19);
     padding: 6px 10px;
     border: 1px solid #000000;
     text-align: center;
@@ -135,8 +149,8 @@ a{
     border-radius: 5px;
 }
 
-.menu li a:hover {background-color: #808080;}
-.menu li a:active {background-color: #808080;}
+.menu li a:hover,
+.menu li a:active {background-color: #808080}
 
 .menu .sousmenu {
     list-style-type: none;
@@ -154,7 +168,7 @@ a{
     border-right: 1px solid transparent;
 }
 
-.menu .sousmenu li a:link, .menu li a:visited {
+.menu .sousmenu li a {
     display: block;
     color: black;
     text-decoration: none;
