@@ -139,3 +139,20 @@ a{
 .menu li:hover .sousmenu {
     display: block;
 }
+
+footer{
+	background-color: gray;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	img{
+		height: 50px;
+		width: auto;
+	}
+	.reseaux-sociaux{
+		justify-content: flex-end;
+	}
+	.ancrage{
+		justify-content: flex-start;
+	}
+}
