@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
  <head>
+ <link rel="stylesheet" href="css/style.css" media="all">
+ <link rel="stylesheet" href="css/stylealter.css" media="(max-width=600px)">
  <title>Fiche explicatif du Cavalier</title>
  <meta charset="utf-8">
  </head>
+ 
+ <header>
+        <h1><a href="index.html" class="titre">Accueil</a></h1>
+
+        <div class="conteneur">
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Menu</a>
+						<ul class="sousmenu">
+							<li><a href="#">Les grands joueurs</a></li>
+							<li><a href="#">Les grands joueurs</a></li>
+							<li><a href="#">Les grands joueurs</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+            <button id="styleAlternatif">Style alternatif</button>
+        </div>
+ </header>
+ 
  <body>
 	 <h1>Comment jouer : <br><strong>Le Cavalier</strong></h1>
 	 Le Cavalier peut :
-     <blockquote>Se déplacer en 'L', c'est à dire 2 cases dans une direction sauf les diagonales puis 1 case à gauche ou à droite.<br>
-     Les cases que le cavalier survole ne le permet pas de manger les pièces qui s'y trouve.
-     Seul les pièces se situant sur la case de destination du cavalier peuvent être mangé</blockquote>
-     <br>
-     <blockquote><img src="deplacement-cavalier-2586563660.jpg" alt="deplacement_cavalier">
-     <br>
-     <img src="attaque-cavalier-1101712728.jpg" alt="attaque_cavalier"></blockquote>
+     <p>- Se déplacer en 'L', c'est à dire 2 cases dans une direction sauf les diagonales puis 1 case à gauche ou à droite.<br>
+     - Les cases que le cavalier survole ne le permet pas de manger les pièces qui s'y trouve.
+       Seul les pièces se situant sur la case de destination du cavalier peuvent être mangé</p>
+     <div class="cavalier">
+		 <div class="deplacement">
+			<h3><strong>Déplacement du Cavalier :</strong></h3>
+			<img src="deplacement-cavalier-2586563660.jpg" alt="deplacement_cavalier">
+		 </div>
+		 <div class="attaque">
+			<h3><strong>Attaque du Cavalier :</strong></h3>
+			<img src="attaque-cavalier-1101712728.jpg" alt="attaque_cavalier">
+		 </div>
+     </div>
  </body>
 </html>
