@@ -175,27 +175,20 @@ p {
 }
 
 .apprentissage {
+	.ligne {
+		img{
+			height: 6vw;
+			weight: 6vw;
+		}
+		button{
+			height: 4vw;
+			weight: 12vw;
+		}
+		display: flex;
+		justify-content: space-around
+		}
 	display: flex;
 	justify-content: space-around
-}
-
-.colonne1 {
-	img{
-		height: 1vw;
-		weight: 1vw;
-	}
-	display: flex;
-	justify-content: center
-}
-
-.colonne2 {
-	display: flex;
-	justify-content: space-between
-}
-
-.colonne3 {
-	display: flex;
-	justify-content: center
 }
 
 .cavalier {
