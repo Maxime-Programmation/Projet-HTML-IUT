@@ -1,32 +1,13 @@
 body{
-    background-image: url("../images/echequier.png"); /*https://fr.wallpapers.com/fonds-decran/motif-de-damier-classique-glvhom8s6gxfwkpi.html */
-    background-size: contain;
-    backdrop-filter: blur(8px);
-    margin-left: 5vw;
-    margin-right: 5vw;
+    background-image:url("fond-quadrille-vert-plat.png");
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 header {
     display: flex;
     align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
-    margin-bottom: 7.5vw;
-}
-
-footer{
-	background-color: gray;
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	img{
-		height: 100px;
-		width: auto;
-	}
-	.reseaux-sociaux{
-		justify-content: flex-end;
-	}
-	.ancrage{
-		justify-content: flex-start;
-	}
+    margin-bottom: 100px;
 }
 
 .titre{
@@ -42,7 +23,8 @@ a{
 .conteneur {
     display: flex;
     margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
-    gap: 1vw;
+    margin-right: 20px; /* Ajoute un espace à droite du conteneur */
+    gap: 50px;
 }
 
 #styleAlternatif {
@@ -55,11 +37,11 @@ a{
 
 .zone-principale{
     display: flex;
-    margin-bottom: 5vw;    
+    margin-bottom: 100px;
 }
 
 .colonne-gauche{
-    margin-bottom: 5vw;
+    margin-bottom: 25px;
 }
 
 .bouton{
@@ -85,28 +67,16 @@ a{
 .groupe-boutons{
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 10px;
 }
 
 #gifEchequier{
     margin-left: auto;
-    margin-right: 15vw;
-    width: 25vw;
-    height: 25vw;
-    border-radius: 5px;
+    margin-right: 15%;
 }
 
 .zone-entree{
     border-radius: 5px;
-}
-
-#form{
-    flex-direction: column;
-    margin-bottom: 5vw;
-}
-
-.origine-echec{
-    margin-bottom: 7.5vw;
 }
 
 /*Revoir*/
@@ -175,23 +145,29 @@ p {
 }
 
 .apprentissage {
-	.ligne {
-		img{
-			height: 6vw;
-			weight: 6vw;
-		}
+	.colonne {
 		button{
-			height: 4vw;
-			weight: 12vw;
+			height: 8vw;
+			width: 16vw;
 		}
 		display: flex;
-		justify-content: space-around
+		flex-direction: column;
+		justify-content: space-between;
 		}
 	display: flex;
-	justify-content: space-around
+	justify-content: space-around;
 }
 
-.cavalier {
+.schema_piece {
 	display: flex;
-	justify-content: space-around
+	justify-content: space-around;
+}
+
+.action {
+	img {
+		height:20vw;
+		width: 20vw;
+	}
+	display: flex;
+	flex-direction: column;
 }
