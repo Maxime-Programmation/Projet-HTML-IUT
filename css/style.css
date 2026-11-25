@@ -142,15 +142,15 @@ a{
 
 footer{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 1vw;
 	background-color: gray;
-	height: 100px;
+	height: 6vw;
 	display: flex;
 	align-items : center;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	img{
-		height: 75px;
+		height: 4vw;
 		width: auto;
 	}
 	.reseaux-sociaux{
@@ -161,3 +161,58 @@ footer{
 	}
 }
 
+.Les-grands-joueurs{
+	img{
+		height: 8vw;
+		width: auto;
+	}
+	display: flex;
+	flex-direction: row;    
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 2vw;
+	.MAGNUS{
+		min-height: 4vw;
+		width: 70vw;
+		font-size: 1vw;
+		border: 0.3vw solid black;
+		padding: 15px;
+	}
+	.NAKAMURA{
+		min-height: 4vw;
+		width: 70vw;
+		font-size: 1vw;
+		border: 0.3vw solid black;
+		padding: 0.5vw;
+	}
+	.CARUANA{
+		min-height: 4vw;
+		width: 70vw;
+		font-size: 1vw;
+		border: 0.3vw solid black;
+		padding: 15px;
+	}
+	.KASPAROV{
+		min-height: 4vw;
+		width: 70vw;
+		font-size: 1vw;
+		border: 0.3vw solid black;
+		padding: 15px;
+	}
+	.FISCHER{
+		min-height: 8vw;
+		width: 70vw;
+		font-size: 1vw;
+		border: 0.3vw solid black;
+		padding: 15px;
+		}
+	}
+	.KARPOV{
+		min-height: 8vw;
+		width: 70vw;
+		font-size: 1vw;
+		border: 0.3vw solid black;
+		padding: 15px;
+	}
+}
