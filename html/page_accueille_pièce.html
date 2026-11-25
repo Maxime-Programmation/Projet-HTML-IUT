@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
  <head>
- <link rel="stylesheet" href="css/style.css" media="all">
- <link rel="stylesheet" href="css/style.css" media="(max-width=600px)">
- <title>Apprentissage</title>
- <meta charset="utf-8">
+	 
+	<meta charset="utf-8">
+	<meta name="description" content="Site pour apprendre les échecs : histoire du jeu, grands joueurs et conseils pour débuter.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link id="feuilleAlt" rel="stylesheet" href="css/alternatif.css" disabled>
+	
+	<title>Apprentissage</title>
+
+	<meta name="geo.region" content="FR-13">
+	<meta name="geo.placename" content="Aix-en-Provence">
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "CollegeOrUniversity",
+			"name": "IUT d'Aix-Marseille - Département Informatique",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "413 avenue Gaston Berger",
+				"postalCode": "13100",
+				"addressLocality": "Aix-en-Provence",
+				"addressCountry": "FR"
+			}
+		}
+    </script>
+ 
  </head>
  
  <header>
@@ -15,9 +38,9 @@
 				<ul class="menu">
 					<li><a href="#">Menu</a>
 						<ul class="sousmenu">
-							<li><a href="#">Le Roi</a></li>
 							<li><a href="#">Les grands joueurs</a></li>
-							<li><a href="#">Les grands joueurs</a></li>
+							<li><a href="#">Apprendre à jouer</a></li>
+							<li><a href="sources.html">Nos sources</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -66,6 +89,9 @@
 		   </div>
 	   </div>
    </div>
+   <video controls="controls">
+	 <source src="video-echec.mp4" type="video/mp4">
+   </video>
    <footer>
 		<div class="reseaux-sociaux">
 			<a href="#top"><img id="ancrage" src="./fleche-vers-le-haut.png" alt="Revenir en haut de la page"></a>
