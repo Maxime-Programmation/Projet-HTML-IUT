@@ -1,0 +1,287 @@
+1
+00:00:00,340 --> 00:00:01,980
+(Transcrit par TurboScribe. Passez à Illimité pour supprimer ce message.) Ok, I explain the big rules of chess,
+
+2
+00:00:02,200 --> 00:00:04,240
+like that you will look perfectly comfortable when
+
+3
+00:00:04,240 --> 00:00:05,800
+people will talk about it around you.
+
+4
+00:00:05,920 --> 00:00:08,420
+This is a video for beginners, so pros
+
+5
+00:00:08,420 --> 00:00:09,280
+you can swipe.
+
+6
+00:00:09,420 --> 00:00:11,000
+In fact, a game of chess is played
+
+7
+00:00:11,000 --> 00:00:13,900
+between two players and each has 16 pieces.
+
+8
+00:00:14,140 --> 00:00:16,520
+So you told me, it's 32 pieces on
+
+9
+00:00:16,520 --> 00:00:18,340
+a 64-box board.
+
+10
+00:00:18,460 --> 00:00:20,320
+Because yes, it is on this board that
+
+11
+00:00:20,320 --> 00:00:22,320
+we call a chessboard that the game will
+
+12
+00:00:22,320 --> 00:00:22,740
+unfold.
+
+13
+00:00:23,000 --> 00:00:25,500
+The chessboard is composed of 8 lines numbered
+
+14
+00:00:25,500 --> 00:00:27,800
+from 1 to 8 and 8 columns from
+
+15
+00:00:27,800 --> 00:00:28,620
+A to H.
+
+16
+00:00:28,620 --> 00:00:31,240
+Each player starts with exactly the same number
+
+17
+00:00:31,240 --> 00:00:31,780
+of pieces.
+
+18
+00:00:31,980 --> 00:00:35,040
+8 pawns, 2 rooks, 2 knights, 2 pawns,
+
+19
+00:00:35,300 --> 00:00:36,480
+a queen and a king.
+
+20
+00:00:36,600 --> 00:00:37,960
+And the goal of the game is simple,
+
+21
+00:00:38,160 --> 00:00:40,020
+put the opponent's king in checkmate.
+
+22
+00:00:40,220 --> 00:00:41,760
+It is also said that he is checkmate
+
+23
+00:00:41,760 --> 00:00:43,840
+when he is attacked and that he can
+
+24
+00:00:43,840 --> 00:00:45,640
+not be defended or escape.
+
+25
+00:00:45,820 --> 00:00:48,420
+You should know absolutely that each piece has
+
+26
+00:00:48,420 --> 00:00:49,640
+its own way of moving.
+
+27
+00:00:49,880 --> 00:00:52,060
+The pawns, they move straight ahead of a
+
+28
+00:00:52,060 --> 00:00:54,300
+single box, but they can eat the other
+
+29
+00:00:54,300 --> 00:00:56,060
+pieces diagonally, like that.
+
+30
+00:00:56,060 --> 00:00:58,420
+The rooks move in a straight line, so
+
+31
+00:00:58,420 --> 00:01:00,300
+like that or like that, of the number
+
+32
+00:01:00,300 --> 00:01:01,220
+of boxes they want.
+
+33
+00:01:01,300 --> 00:01:02,820
+And it's the same thing for the pawns,
+
+34
+00:01:02,980 --> 00:01:04,379
+but they are diagonally.
+
+35
+00:01:04,480 --> 00:01:06,980
+The knights, they make movements in wings, like
+
+36
+00:01:06,980 --> 00:01:07,180
+that.
+
+37
+00:01:07,260 --> 00:01:08,600
+And it's the only ones who can jump
+
+38
+00:01:08,600 --> 00:01:09,920
+over the other pieces.
+
+39
+00:01:10,200 --> 00:01:12,240
+The queen, she is the strongest piece.
+
+40
+00:01:12,480 --> 00:01:14,520
+She can go anywhere, in a line or
+
+41
+00:01:14,520 --> 00:01:16,680
+diagonally, of the number of boxes she wants.
+
+42
+00:01:16,740 --> 00:01:18,640
+And the king, he only moves from one
+
+43
+00:01:18,640 --> 00:01:19,280
+box at a time.
+
+44
+00:01:19,380 --> 00:01:21,060
+So as much to say that some pieces
+
+45
+00:01:21,060 --> 00:01:22,760
+are much more powerful than others.
+
+46
+00:01:22,760 --> 00:01:24,360
+What you also need to know is that
+
+47
+00:01:24,360 --> 00:01:26,280
+the game always starts with the blocks.
+
+48
+00:01:26,380 --> 00:01:28,880
+For during this game, there are also special
+
+49
+00:01:28,880 --> 00:01:28,980
+rules.
+
+50
+00:01:29,200 --> 00:01:30,520
+For example, there is the rook.
+
+51
+00:01:30,640 --> 00:01:32,540
+The rook, it allows you to protect your
+
+52
+00:01:32,540 --> 00:01:34,260
+king and move a tower at the same
+
+53
+00:01:34,260 --> 00:01:34,460
+time.
+
+54
+00:01:34,560 --> 00:01:36,520
+The promotion is when a pawn arrives at
+
+55
+00:01:36,520 --> 00:01:37,140
+the end of the board.
+
+56
+00:01:37,380 --> 00:01:39,800
+And when he does, he can turn into
+
+57
+00:01:39,800 --> 00:01:41,540
+a queen or any other chosen piece.
+
+58
+00:01:41,720 --> 00:01:44,100
+That's why you have to keep your pawns
+
+59
+00:01:44,100 --> 00:01:45,160
+on the chessboard as much as possible and
+
+60
+00:01:45,160 --> 00:01:46,580
+make them move intelligently.
+
+61
+00:01:46,580 --> 00:01:48,680
+At each turn, each player plays a move.
+
+62
+00:01:48,900 --> 00:01:50,820
+And the goal is to build a strategy
+
+63
+00:01:50,820 --> 00:01:53,740
+to trap your opponent, protect your king and
+
+64
+00:01:53,740 --> 00:01:54,740
+attack at the right time.
+
+65
+00:01:54,860 --> 00:01:56,340
+And at the end, when the king can
+
+66
+00:01:56,340 --> 00:01:59,160
+no longer move without being captured, it's chess
+
+67
+00:01:59,160 --> 00:01:59,660
+and maths.
+
+68
+00:01:59,760 --> 00:02:01,120
+And the game is over.
+
+69
+00:02:01,300 --> 00:02:03,760
+Now you know the basic rules of chess,
+
+70
+00:02:04,000 --> 00:02:06,080
+although there are still subtleties.
+
+71
+00:02:06,180 --> 00:02:07,860
+And do not forget to subscribe to know
+
+72
+00:02:07,860 --> 00:02:09,220
+the rules of other sports.
