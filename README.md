@@ -33,7 +33,7 @@ d’écoconception (2,5 %) ; <br>
 <br>
 − validation W3C de toutes vos pages HTML (réglage HTML5) (5 %) ; <br>
 − validation  W3C  de  toutes  vos  pages  CSS  (réglage  CSS  niveau  3  avec  aucun 
-avertissement et gestion des extensions propriétaires comme avertissement) (2,5 %) ; <br>
+avertissement et gestion des extensions propriétaires comme avertissement) (2,5 %) ; <br><br>
 <s>− utilisation d’un système de gestion de projet comme Notion, ClickUp, Trello, GitHub 
 Issues, Linear, ou Jira (2,5 %) et de gestion de version comme GitHub (2,5 %) ; </s><br>
 − perfectionnement avec l’ajouts de fonctionnalités (5 %). <br>
