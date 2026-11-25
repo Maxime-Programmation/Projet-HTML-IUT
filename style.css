@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/echequier.png"); /*https://fr.wallpapers.com/fonds-decran/motif-de-damier-classique-glvhom8s6gxfwkpi.html */
+    background-image: url("echequier.png");
     background-size: contain;
     backdrop-filter: blur(8px);
     margin-left: 5vw;
@@ -9,7 +9,7 @@ body{
 header {
     display: flex;
     align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
-    margin-bottom: 7.5vw;
+    margin-bottom: 5vw;
 }
 
 footer{
@@ -36,9 +36,12 @@ footer{
     font-size: 38px;
 }
 
+/*css pour le header*/
 a{
     text-decoration: none;
 }
+
+
 .conteneur {
     display: flex;
     margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
@@ -88,42 +91,7 @@ a{
     gap: 1vw;
 }
 
-#gifEchequier{
-    margin-left: auto;
-    margin-right: 15vw;
-    width: 25vw;
-    height: 25vw;
-    border-radius: 5px;
-}
-
-.zone-entree{
-    border-radius: 5px;
-}
-
-#form {
-    background-color: white;
-    max-width: 450px;
-    margin: 0 0 5vw 0;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#form input[type="text"],
-#form textarea {
-    width: 100%;
-    box-sizing: border-box; /* évite que le champ déborde */
-    padding: 10px;
-    margin: 5px 0 15px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 15px;
-}
-
-.histoire-echecs{
-    margin-bottom: 7.5vw;
-}
+/*menu deroulant*/
 
 .menu {
     list-style: none;
@@ -149,7 +117,6 @@ a{
     border-radius: 5px;
 }
 
-.menu li a:hover,
 .menu li a:active {background-color: #808080}
 
 .menu .sousmenu {
@@ -182,4 +149,75 @@ a{
 
 .menu li:hover .sousmenu {
     display: block;
+}
+
+/*gif echequier*/
+
+#gifEchequier{
+    margin-left: auto;
+    margin-right: 15vw;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 5px;
+}
+
+
+/*formulaire*/
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 450px;
+    margin: 0 0 5vw 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form input[type="text"],
+#form textarea {
+    width: 100%;
+    box-sizing: border-box; /* évite que le champ déborde */
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#choixSexe {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0 30px 0; /* 30px d'espace en dessous, avant la note */
+}
+
+#ligneNote {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.zone-entree{
+    border-radius: 5px;
+}
+
+/*paragraphe echec*/
+
+.histoire-echecs{
+    background-color: rgba(255, 255, 255, 0.93); /* fond blanc un peu transparent */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 7.5vw auto;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.origine-echec{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
