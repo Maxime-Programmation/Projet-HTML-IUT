@@ -22,9 +22,9 @@ d'une autre feuille de style (la plus différente possible) de la feuille de sty
 − programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
 convention de nommage en anglais, indentation et commentarisation du code source 
 (5 %)  <br>
-− l’accessibilité,  le  référencement,  y  compris  le  référencement  local  (avec,  par  défaut, 
+<s>− l’accessibilité,  le  référencement,  y  compris  le  référencement  local  (avec,  par  défaut, 
 l’adresse du département informatique) et réseaux sociaux (10 %) ainsi que l’optimisation 
-avec la compression des images (1,25 %), l’utilisation des préfixes propriétaires et la 
+avec la compression des images (1,25 %)</s>, l’utilisation des préfixes propriétaires et la 
 minification du CSS (1,25 %), devront être travaillés ; <br>
 − le  site  Web  devra  présenter  le  plus  grand  nombre  possible  de  bonnes  pratiques 
 d’écoconception (2,5 %) ; <br>
