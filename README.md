@@ -10,8 +10,8 @@ Au minimum tous les points suivants doivent être respectés :
 (2,5 %) ;</s> <br>
 <s>− des  liens  vers  d'autres  sites Web  devront  être  présents  sur  une  des  pages  ou  vue Web 
 (2,5 %) ; </s><br>
-− un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré 
-automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ; <br>
+<s>− un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré 
+automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ; </s><br>
 <s>− une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (5 %) ; </s><br>
 <s>− pour les longues pages Web, un ancrage permettant de remonter en haut de la page (2,5 %) ; </s><br>
 <s>− possibilité de changer le style du site Web grâce à un lien en JavaScript par l'utilisation 
