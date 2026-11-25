@@ -3,7 +3,7 @@
 Au minimum tous les points suivants doivent être respectés : 
 
 − le site Web doit être hébergé et accessible sur le Web (2,5 %) ; <br>
-− un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ; <br> 
+<s>− un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ; </s><br> 
 <s>− la balise meta description devra être renseignée (1,25 %) ; </s><br>
 <s>− le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ; </s><br>
 <s>− un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web 
