@@ -18,7 +18,7 @@ automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5
 d'une autre feuille de style (la plus différente possible) de la feuille de style par défaut 
 (7,5 %) ;</s> <br>
 − le site Web devra être adaptatif à la fois sur smartphones, tablettes et ordinateurs (5 %) ; <br>
-− bonne architecture des répertoires (2,5 %) ; <br>
+<s>− bonne architecture des répertoires (2,5 %) ; </s><br>
 − programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
 convention de nommage en anglais, indentation et commentarisation du code source 
 (5 %)  <br>
