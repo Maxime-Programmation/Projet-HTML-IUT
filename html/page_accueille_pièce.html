@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!-- Informations générale sur la page (invisible) -->
+		<!-- Titre de la page(visible dans le navigateur) -->
+		<title>Apprentissage</title>
+		<!-- Encodage du fichier (particulièrement utile pour les accents) -->
+		<meta charset="utf-8">
+		<meta name="description" content="Site pour apprendre les échecs : histoire du jeu, grands joueurs et conseils pour débuter.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="../images/favicon.png">
+		
+		<!--style et script-->
+		<link rel="stylesheet" href="../styles/style.css">
+		<link id="feuilleAlt" rel="stylesheet" href="../styles/alternatif.css" disabled>
+		<script src="../js/script.js" defer></script>
+
+		    <!-- Référencement local -->
+		<meta name="geo.region" content="FR-13">
+		<meta name="geo.placename" content="Aix-en-Provence">
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "CollegeOrUniversity",
+			"name": "IUT d'Aix-Marseille - Département Informatique",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "413 avenue Gaston Berger",
+				"postalCode": "13100",
+				"addressLocality": "Aix-en-Provence",
+				"addressCountry": "FR"
+			}
+		}
+    	</script>
+
+	</head>
+ 
+ <header>
+        <h1><a href="index.html" class="titre">Accueil</a></h1>
+
+        <div class="conteneur">
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Menu</a>
+						<ul class="sousmenu">
+							<li><a href="#">Les grands joueurs</a></li>
+							<li><a href="#">Apprendre à jouer</a></li>
+							<li><a href="sources.html">Nos sources</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+            <button id="styleAlternatif">Style alternatif</button>
+        </div>
+ </header>
+ 
+ <body>
+   <h1><strong>Apprentissage</strong></h1>
+   <p>Un jeu d'échec est composé de plusieurs pièce. Au total, chaque joueur possède 16 pièces d'échec pour 6 différentes pièces.<br>
+   Il possède chacun respectivement:<br>
+   - 1 roi<br>
+   - 1 reine<br>
+   - 2 cavaliers<br>
+   - 2 fous<br>
+   - 2 tour<br>
+   - 8 pions<br>
+   Chaque pièce on leur force et leur faiblesse. Il en vient au joueur de savoir ce que peut faire chaque pièce, et de tirer le meilleur potentielle de ces dernières afin d'établir les statégies
+   adéquates pour gagner.</p>
+   <div class="apprentissage">
+	   <img src="../image/echiquier-3161117932.jpg" alt="plateau_avec_pièce">
+	   <div class="colonne">
+		   <div class="bouton_piece">
+			   <button type="button"><a href="roi.html"><h3><strong>Le Roi</strong></h3></a></button><br>
+		   </div>
+		   <div class="bouton_piece">
+			   <button type="button"><a href="reine.html"><h3><strong>La Reine</strong></h3></a></button><br>
+		   </div>
+	   </div>
+	   <div class="colonne">
+		   <div class="bouton_piece">
+			   <button type="button"><a href="cavalier.html"><h3><strong>Le Cavalier</strong></h3></a></button><br>
+		   </div>
+		   <div class="bouton_piece">
+			   <button type="button"><a href="fou.html"><h3><strong>Le Fou</strong></h3></a></button><br>
+		   </div>
+	   </div>
+	   <div class="colonne">
+		   <div class="bouton_piece">
+			   <button type="button"><a href="tour.html"><h3><strong>La Tour</strong></h3></a></button><br>
+		   </div>
+		   <div class="bouton_piece">
+			   <button type="button"><a href="pion.html"><h3><strong>Le Pion</strong></h3></a></button><br>
+		   </div>
+	   </div>
+   </div>
+   
+   <video controls>
+	<source src="video-echec.mp4" type="video/mp4">
+	<track src="video-echec.vtt" kind="subtitles" srclang="en" label="English">
+   </video>
+   
+   <footer>
+		<div class="reseaux-sociaux">
+			<a href="#top"><img id="ancrage" src="./fleche-vers-le-haut.png" alt="Revenir en haut de la page"></a>
+		</div>
+		<div class="phrase-du-footer">
+			<p>Au tout début le titre du site était "Pate Bolognaise", le meilleur titre que j'ai jamais trouvé.</p>
+			<address>
+				IUT d'Aix-Marseille - Département Informatique<br>
+				413 avenue Gaston Berger, 13100 Aix-en-Provence
+			</address>
+		</div>
+		<div class="ancrage">
+			<a href="https://www.mickael-martin-nevot.com/univ-amu/iut/but-informatique/developpement-d-interfaces-web/" target="_blank"><img id="MMN" src="https://www.mickael-martin-nevot.com/_assets/images/logo/sypher-blue.webp" alt="Site du cour de déleloppement web de Martin Nevot"></a>
+			<a href="https://www.instagram.com/iutaixmars/?st_source=ai_overview" target="_blank"><img id="insta" src="./logo-instagram.jpg" alt="Page instragram iut informatique"></a>
+		</div>
+   </footer>
+	
+ </body>
+</html>
