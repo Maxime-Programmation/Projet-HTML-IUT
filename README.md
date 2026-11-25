@@ -5,18 +5,18 @@ Au minimum tous les points suivants doivent être respectés :
 − le site Web doit être hébergé et accessible sur le Web (2,5 %) ; <br>
 − un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ; <br> 
 <s>− la balise meta description devra être renseignée (1,25 %) ; </s><br>
-− le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ; <br>
-− un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web 
-(2,5 %) ; <br>
-− des  liens  vers  d'autres  sites Web  devront  être  présents  sur  une  des  pages  ou  vue Web 
-(2,5 %) ; <br>
+<s>− le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ; </s><br>
+<s>− un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web 
+(2,5 %) ;</s> <br>
+<s>− des  liens  vers  d'autres  sites Web  devront  être  présents  sur  une  des  pages  ou  vue Web 
+(2,5 %) ; </s><br>
 − un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré 
 automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ; <br>
 − une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (5 %) ; <br>
-− pour les longues pages Web, un ancrage permettant de remonter en haut de la page (2,5 %) ; <br>
-− possibilité de changer le style du site Web grâce à un lien en JavaScript par l'utilisation 
+<s>− pour les longues pages Web, un ancrage permettant de remonter en haut de la page (2,5 %) ; </s><br>
+<s>− possibilité de changer le style du site Web grâce à un lien en JavaScript par l'utilisation 
 d'une autre feuille de style (la plus différente possible) de la feuille de style par défaut 
-(7,5 %) ; <br>
+(7,5 %) ;</s> <br>
 − le site Web devra être adaptatif à la fois sur smartphones, tablettes et ordinateurs (5 %) ; <br>
 − bonne architecture des répertoires (2,5 %) ; <br>
 − programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
