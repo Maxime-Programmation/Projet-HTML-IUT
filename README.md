@@ -28,6 +28,9 @@ avec la compression des images (1,25 %), l’utilisation des préfixes propriét
 minification du CSS (1,25 %), devront être travaillés ; <br>
 − le  site  Web  devra  présenter  le  plus  grand  nombre  possible  de  bonnes  pratiques 
 d’écoconception (2,5 %) ; <br>
+
+<br>
+<br>
 − validation W3C de toutes vos pages HTML (réglage HTML5) (5 %) ; <br>
 − validation  W3C  de  toutes  vos  pages  CSS  (réglage  CSS  niveau  3  avec  aucun 
 avertissement et gestion des extensions propriétaires comme avertissement) (2,5 %) ; <br>
