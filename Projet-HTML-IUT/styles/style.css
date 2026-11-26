@@ -1,57 +1,82 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
 body{
-    background-image: url("../images/echequier.png");
+    background-image: url("../images/echequierInverse.png");
+    color: #e6e6e6;
     background-size: contain;
     backdrop-filter: blur(8px);
-    margin: 0 5vw; /*marge a droite et gauche de 5%*/
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 5vw;
 }
 
 footer{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1vw;
-	background-color: gray;
-	height: 6vw;
+	background-color: #05060a;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items : center;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-    margin-left: -5vw;
-    margin-right: -5vw;
-    padding: 0 1vw;
-    margin-top: 10vw;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	img{
 		height: 4vw;
 		width: auto;
 	}
-    .phrase-du-footer{
-        display: flex;
-        flex-direction: column;
-	    align-items : center;
-    }
+	.reseaux-sociaux{
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+	}
+	.ancrage{
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-webkit-filter: invert(1);
+		        filter: invert(1)
+	}
 }
 
 .titre{
     font-family: Arial, Helvetica, sans-serif;
-    color:black;
+    color:#e6e6e6;
     font-weight: 700;
     font-size: 38px;
 }
 
 /*css pour le header*/
+
 a{
     text-decoration: none;
+    color: #9d6bff;
 }
-
-
 .conteneur {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
     gap: 1vw;
@@ -60,16 +85,18 @@ a{
 #styleAlternatif {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color:blueviolet;
+    color:#0f1117;
     border-radius: 5px;
-    background-color:pink;
+    background-color:#9d6bff;
 }
 
 /*affichage bouton principaux*/
 
 .zone-principale{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    margin-bottom: 5vw;    
+    margin-bottom: 5vw;
 }
 
 .colonne-gauche{
@@ -77,30 +104,125 @@ a{
 }
 
 .bouton{
-    background-color: white;
+    background-color: #181b26;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: black;
+    color: #e6e6e6;
     border-radius: 5px;
     text-align: center;
     padding: 10px;
 }
 
 .boutonFondNoir{
-    color: white;
+    color: #0f1117;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    background-color: black;
+    background-color: #9d6bff;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
 }
 
 .groupe-boutons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 1vw;
 }
+
+/*gif echequier*/
+
+#gifEchequier{
+    margin-left: auto;
+    margin-right: 15vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+}
+
+/*formulaire*/
+
+#form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #181b26;
+    color: #e6e6e6;
+    max-width: 450px;
+    margin: 0 0 5vw 0;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form input[type="text"],
+#form textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; /* évite que le champ déborde */
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #3a3f55;
+    background-color: #0f1117;
+    color: #e6e6e6;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#choixSexe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 8px;
+    margin: 5px 0 30px 0; /* 30px d'espace en dessous, avant la note */
+}
+
+#ligneNote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/*paragraphe echec*/
+
+.histoire-echecs{
+    background-color: rgba(24, 27, 38, 0.93); /* fond sombre un peu transparent */
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto 7.5vw auto;
+    padding: 40px 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.origine-echec{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.zone-entree{
+    border-radius: 5px;
+}
+
 
 /*menu deroulant*/
 
@@ -119,10 +241,10 @@ a{
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: #FFF;
-    background: rgb(19, 19, 19);
+    color: #e6e6e6;
+    background: #181b26;
     padding: 6px 10px;
-    border: 1px solid #000000;
+    border: 1px solid #3a3f55;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
@@ -148,96 +270,24 @@ a{
 
 .menu .sousmenu li a {
     display: block;
-    color: black;
+    color: #e6e6e6;
     text-decoration: none;
-    background-color: #ffffff;
-    border-color: black;
+    background-color: #181b26;
+    border-color: #3a3f55;
 }
 
 .menu .sousmenu li a:hover {
-    background-color: #cfcfcf;
+    background-color: #2b2f42;
 }
 
 .menu li:hover .sousmenu {
     display: block;
 }
 
-/*gif echequier*/
-
-#gifEchequier{
-    margin-left: auto;
-    margin-right: 15vw;
-    width: 20vw;
-    height: 20vw;
-    border-radius: 5px;
-}
-
-
-/*formulaire*/
-
-#form {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    max-width: 450px;
-    margin: 0 0 5vw 0;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#form input[type="text"],
-#form textarea {
-    width: 100%;
-    box-sizing: border-box; /* évite que le champ déborde */
-    padding: 10px;
-    margin: 5px 0 15px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 15px;
-}
-
-#choixSexe {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 5px 0 30px 0; /* 30px d'espace en dessous, avant la note */
-}
-
-#ligneNote {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.zone-entree{
-    border-radius: 5px;
-}
-
-/*paragraphe echec*/
-
-.histoire-echecs{
-    background-color: rgba(255, 255, 255, 0.93); /* fond blanc un peu transparent */
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0 auto 7.5vw auto;
-    padding: 40px 50px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-.origine-echec{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-
-/*style pour ecran de moins de 768px (tablettes et mobiles)*/
 @media (max-width: 768px) {
     header {
-        flex-wrap: wrap;           /* le menu passe sous le titre au lieu de déborder */
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;           /* le menu passe sous le titre au lieu de déborder */
         gap: 10px;
     }
 
@@ -250,7 +300,10 @@ a{
     }
 
     .zone-principale {
-        flex-direction: column;    /* boutons au-dessus, gif en dessous */
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;    /* boutons au-dessus, gif en dessous */
     }
 
     #gifEchequier {
@@ -272,7 +325,7 @@ a{
         padding: 10px 2vw;
         font-size: 3vw;
         img {
-        height: 10vw;
+            height: 10vw;
         }
     }
 }
