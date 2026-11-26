@@ -1,1 +1,339 @@
-.conteneur,body,header{display:-webkit-box;display:-ms-flexbox}#styleAlternatif,.bouton{font-family:Arial,Helvetica,sans-serif;font-size:15px}.bouton,.boutonFondNoir{background-color:#000;padding:10px;border-radius:5px}#styleAlternatif,.bouton,.boutonFondNoir,.zone-entree{border-radius:5px}.menu .sousmenu li a,.menu li a,a{text-decoration:none}.menu li a,.menu li:hover .sousmenu{display:block}.phrase-du-footer,body{-webkit-box-orient:vertical;-webkit-box-direction:normal}body{background-image:url("../images/echequier.png");background-size:contain;backdrop-filter:blur(8px);margin:0 5vw;min-height:100vh;display:flex;-ms-flex-direction:column;flex-direction:column}.groupe-boutons,header{-webkit-box-align:center}header{display:flex;-ms-flex-align:center;align-items:center;margin-bottom:5vw}.titre{font-family:Arial,Helvetica,sans-serif;color:#000;font-weight:700;font-size:38px}a{color:#00e}.conteneur{display:flex;margin-left:auto;gap:1vw}.groupe-boutons,.zone-principale{display:-webkit-box;display:-ms-flexbox}#styleAlternatif{color:#8a2be2;background-color:pink}.zone-principale{display:flex;margin-bottom:100px}.colonne-gauche{margin-bottom:25px}.bouton{color:#000;text-align:center}.boutonFondNoir,.menu li a{font-size:15px;color:#fff;text-align:center;font-family:Arial,Helvetica,sans-serif}.groupe-boutons{display:flex;-ms-flex-align:center;align-items:center;gap:10px}.phrase-du-footer,footer{display:-webkit-box;display:-ms-flexbox}#gifEchequier{margin-left:auto;margin-right:15%}.menu{list-style:none;padding:0;margin:0 0 0 30px}.menu li{float:left;width:auto}.menu li a{background:#131313;padding:6px 10px;border:1px solid #000;border-radius:5px}.menu li a:active{background-color:grey}.menu .sousmenu{list-style-type:none;display:none;padding:0;margin:0;position:absolute}.menu .sousmenu li{float:none;margin:0;padding:0;border-top:1px solid transparent;border-right:1px solid transparent}.menu .sousmenu li a{display:block;color:#000;background-color:#fff;border-color:#000}.menu .sousmenu li a:hover{background-color:#cfcfcf}footer{font-family:Arial,Helvetica,sans-serif;font-size:1vw;background-color:gray;height:6vw;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:0 1vw;margin:10vw -5vw 0;width:auto}.phrase-du-footer{display:flex;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}h2{padding:3vw}@media (max-width:768px){body{font-size:3vw}#plateau{height:50vw;width:50vw}.Les-grands-joueurs{width:auto;border-radius:1.5vw}}#plateau{height:50vw;width:50vw}.Les-grands-joueurs{width:auto;border-radius:1.5vw}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
+body{
+    background-image: url("../images/echequier.png");
+    background-size: contain;
+    backdrop-filter: blur(8px);
+    margin: 0 5vw; /*marge a droite et gauche de 5%*/
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
+    margin-bottom: 5vw;
+}
+
+.titre{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+a{
+    text-decoration: none;
+}
+.conteneur {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
+    gap: 1vw;
+}
+
+#styleAlternatif {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:blueviolet;
+    border-radius: 5px;
+    background-color:pink;
+}
+
+.zone-principale{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.colonne-gauche{
+    margin-bottom: 25px;
+}
+
+.bouton{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.boutonFondNoir{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.groupe-boutons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+}
+
+#gifEchequier{
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+.zone-entree{
+    border-radius: 5px;
+}
+
+/*menu deroulant*/
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 30px; /* Le place à gauche, à 30px à droite du titre Accueil */
+}
+
+.menu li {
+    float: left;
+    width: auto;
+}
+
+.menu li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    background: rgb(19, 19, 19);
+    padding: 6px 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu li a:active {background-color: #808080}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #cfcfcf;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+footer{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1vw;
+	background-color: gray;
+	height: 6vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align : center;
+	    -ms-flex-align : center;
+	        align-items : center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    padding: 0 1vw;
+    margin-bottom: 0px;
+    margin-top: 10vw;
+	img{
+		height: 4vw;
+		width: auto;
+	}
+    .phrase-du-footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+	    -webkit-box-align : center;
+	        -ms-flex-align : center;
+	            align-items : center;
+    }
+}
+
+
+.Les-grands-joueurs{
+	img{
+		height: 10vw;
+		width: auto;
+        border-radius: 1vw;
+	}
+	a{
+		color: #0000EE;
+	}
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;    
+	-webkit-box-align: start;    
+	    -ms-flex-align: start;    
+	        align-items: flex-start;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	gap: 2vw;
+	.joueurs{
+		min-height: 4vw;
+		max-width: 65vw;
+		font-size: 1vw;
+		border-radius: 10px;
+		background-color: white;
+        -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+		padding: 0.5vw;
+    }
+}
+
+#plateau{
+    height: 25vw;
+	width: 25vw;
+}
+
+h2{
+    padding: 3vw;
+}
+
+@media (max-width: 768px) {
+    body{
+		font-size: 3vw;
+    }
+    
+    #plateau{
+		height: 50vw;
+		width: 50vw;
+	}
+	
+	.Les-grands-joueurs{
+		img{
+			height: 20vw;
+			width: auto;
+        border-radius: 1.5vw;
+		}
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;    
+		-webkit-box-align: start;    
+		    -ms-flex-align: start;    
+		        align-items: flex-start;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		gap: 2vw;
+		.joueurs{
+			min-height: 4vw;
+			max-width: 55vw;
+			font-size: 2vw;
+			border: 0.3vw solid black;
+			padding: 0.5vw;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+    body{
+		font-size: 3vw;
+    }
+    
+    #plateau{
+		height: 50vw;
+		width: 50vw;
+	}
+	
+	.Les-grands-joueurs{
+		img{
+			height: 15vw;
+			width: auto;
+        border-radius: 1.5vw;
+		}
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;    
+		-webkit-box-align: start;    
+		    -ms-flex-align: start;    
+		        align-items: flex-start;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		gap: 2vw;
+		.joueurs{
+			min-height: 4vw;
+			max-width: 50vw;
+			font-size: 2.5vw;
+			border: 0.3vw solid black;
+			padding: 0.5vw;
+		}
+	}
+}
