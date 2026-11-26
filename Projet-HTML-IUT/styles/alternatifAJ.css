@@ -95,6 +95,80 @@ a{
     gap: 1vw;
 }
 
+/*gif echequier*/
+
+#gifEchequier{
+    margin-left: auto;
+    margin-right: 15vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+}
+
+/*formulaire*/
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: #181b26;
+    color: #e6e6e6;
+    max-width: 450px;
+    margin: 0 0 5vw 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form input[type="text"],
+#form textarea {
+    width: 100%;
+    box-sizing: border-box; /* évite que le champ déborde */
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #3a3f55;
+    background-color: #0f1117;
+    color: #e6e6e6;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#choixSexe {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0 30px 0; /* 30px d'espace en dessous, avant la note */
+}
+
+#ligneNote {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/*paragraphe echec*/
+
+.histoire-echecs{
+    background-color: rgba(24, 27, 38, 0.93); /* fond sombre un peu transparent */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 7.5vw auto;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.origine-echec{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.zone-entree{
+    border-radius: 5px;
+}
+
+
 /*menu deroulant*/
 
 .menu {
@@ -154,95 +228,3 @@ a{
 .menu li:hover .sousmenu {
     display: block;
 }
-
-p {
-	color: red;
-	font-family: Arial;
-}
-
-h1 h2 {
-	color: cyan;
-	font-family: sans-serif;
-}
-
-.apprentissage {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding: 3vw;
-	img {
-		height: 20vw;
-		width: 20vw;
-	}
-	.piece {
-		img {
-			height: 10vw;
-			width: 10vw;
-		}
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		flex: 0 0 40%;
-		padding: 0 5vw;
-	}
-}
-
-video {
-	height: 20vw;
-	width: 20vw;
-}
-
-.schema_piece {
-	display: flex;
-	justify-content: space-around;
-}
-
-.action {
-	img {
-		height:20vw;
-		width: 20vw;
-	}
-	display: flex;
-	flex-direction: column;
-}
-
-@media (max-width: 768px) {
-    body{
-		font-size: 3vw;
-    }
-    	
-	.apprentissage{
-		img{
-			height: 26vw;
-			width: auto;
-        border-radius: 1.5vw;
-		}
-		display: flex;
-		flex-direction: row;    
-		align-items: flex-start;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		gap: 2vw;
-	}
-	video {
-		height: 32vw;
-		width: 32vw;
-	}
-	.action {
-		img {
-			height:26vw;
-			width: 26vw;
-		}
-	}
-
-	footer {
-        height: auto;              /* 6vw est trop petit sur mobile */
-        padding: 10px 2vw;
-        font-size: 3vw;
-        img {
-        height: 10vw;
-        }
-    }
-}
-
