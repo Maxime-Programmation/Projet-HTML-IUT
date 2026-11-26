@@ -180,7 +180,7 @@ a{
     flex-direction: column;
     background-color: white;
     max-width: 450px;
-    margin: 0 auto 5vw auto;   /* <- auto à gauche et à droite */
+    margin: 0 0 5vw 0;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
