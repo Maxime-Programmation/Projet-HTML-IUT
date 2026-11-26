@@ -149,6 +149,10 @@ footer{
 	align-items : center;
 	flex-direction: row-reverse;
 	justify-content: space-between;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    padding: 0 1vw;
+    margin-top: auto;
 	img{
 		height: 4vw;
 		width: auto;
@@ -172,47 +176,11 @@ footer{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	gap: 2vw;
-	.MAGNUS{
+	.joueurs{
 		min-height: 4vw;
-		width: 70vw;
-		font-size: 1vw;
-		border: 0.3vw solid black;
-		padding: 15px;
-	}
-	.NAKAMURA{
-		min-height: 4vw;
-		width: 70vw;
+		max-width: 65vw;
 		font-size: 1vw;
 		border: 0.3vw solid black;
 		padding: 0.5vw;
-	}
-	.CARUANA{
-		min-height: 4vw;
-		width: 70vw;
-		font-size: 1vw;
-		border: 0.3vw solid black;
-		padding: 15px;
-	}
-	.KASPAROV{
-		min-height: 4vw;
-		width: 70vw;
-		font-size: 1vw;
-		border: 0.3vw solid black;
-		padding: 15px;
-	}
-	.FISCHER{
-		min-height: 8vw;
-		width: 70vw;
-		font-size: 1vw;
-		border: 0.3vw solid black;
-		padding: 15px;
-		}
-	}
-	.KARPOV{
-		min-height: 8vw;
-		width: 70vw;
-		font-size: 1vw;
-		border: 0.3vw solid black;
-		padding: 15px;
-	}
+    }
 }
