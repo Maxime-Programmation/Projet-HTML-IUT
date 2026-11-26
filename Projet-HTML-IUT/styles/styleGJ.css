@@ -185,6 +185,7 @@ footer{
 		max-width: 65vw;
 		font-size: 1vw;
 		border-radius: 10px;
+		background-color: white;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 		padding: 0.5vw;
     }
