@@ -1,6 +1,5 @@
 body{
     background-image: url("../images/echequier.png");
-	filter: invert(1);
     color: #e6e6e6;
     background-size: contain;
     backdrop-filter: blur(8px);
