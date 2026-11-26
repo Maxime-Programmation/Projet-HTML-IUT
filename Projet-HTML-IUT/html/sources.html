@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+/**
+ * Cette œuvre est mise à disposition selon les termes de la licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage à l'Identique 3.0 non transposé.
+ * Document en ligne : www.mickael-martin-nevot.com
+ *
+ * @author Mickaël Martin Nevot
+ * @version 2.0.1
+ */
+ -->
+<!-- Ci-dessus : DTD (Document Type Definition) du document (version de HTML utilisée) -->
+<!-- Ci-dessous : Page HTML (avec définition de l’espace de nom XML) -->
+<html lang="fr">
+	<head>
+		<!-- Informations générale sur la page (invisible) -->
+		<!-- Titre de la page(visible dans le navigateur) -->
+		<title>Nos sources</title>
+		<!-- Encodage du fichier (particulièrement utile pour les accents) -->
+		<meta charset="utf-8">
+		<meta name="description" content="Les sources et ressources utilisées pour créer ce site sur les échecs : articles, outils d'apprentissage, documentation et images.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="../images/favicon.png">
+
+		<!--style et script-->
+		<link rel="stylesheet" href="../styles/style.css">
+		<link id="feuilleAlt" rel="stylesheet" href="../styles/alternatif.css" disabled>
+		<script src="../js/script.js" defer></script>
+
+		    <!-- Référencement local -->
+		<meta name="geo.region" content="FR-13">
+		<meta name="geo.placename" content="Aix-en-Provence">
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "CollegeOrUniversity",
+			"name": "IUT d'Aix-Marseille - Département Informatique",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "413 avenue Gaston Berger",
+				"postalCode": "13100",
+				"addressLocality": "Aix-en-Provence",
+				"addressCountry": "FR"
+			}
+		}
+    	</script>
+	</head>
+
+	<body>
+
+	<header>
+		<h1><a href="index.html" class="titre">Accueil</a></h1>
+
+		<div class="conteneur">
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Menu</a>
+						<ul class="sousmenu">
+							<li><a href="#">Les grands joueurs</a></li>
+							<li><a href="#">Apprendre à jouer</a></li>
+							<li><a href="sources.html">Nos sources</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<button id="styleAlternatif">Style alternatif</button>
+		</div>
+	</header>
+
+	<main>
+		<section class="histoire-echecs">
+			<h2 class="titre">Nos sources</h2>
+
+			<p>
+				Voici toutes les ressources qui ont servi à construire ce site :
+				le contenu, les outils d'apprentissage et les éléments graphiques.
+			</p>
+
+			<!-- Contenu du site -->
+			<h3>Contenu sur l'histoire des échecs</h3>
+			<ul class="liste-sources">
+				<li>
+					<a href="https://www.chess.com/fr/article/view/lhistoire-des-echecs-des-origines-a-magnus-carlsen"
+					target="_blank" rel="noopener">Chess.com, « L'Histoire des échecs, des origines à Magnus Carlsen »</a>
+					: article dont s'inspire le texte de la page d'accueil.
+				</li>
+			</ul>
+
+			<!-- Apprentissage et documentation -->
+			<h3>Apprentissage et documentation</h3>
+			<ul class="liste-sources">
+				<li>
+					<a href="https://flexboxfroggy.com/#fr" target="_blank" rel="noopener">Flexbox Froggy</a>: jeu pour apprendre la mise en page avec Flexbox.
+				</li>
+				<li>
+					<a href="https://www.w3.org/TR/" target="_blank" rel="noopener">Documentation W3C</a>: spécifications HTML et CSS.
+				</li>
+				<li>
+					<a href="https://www.mickael-martin-nevot.com/univ-amu/iut/but-informatique/developpement-d-interfaces-web/"
+					target="_blank" rel="noopener">Cours de développement d'interfaces web</a> de Mickaël Martin Nevot
+				</li>
+			</ul>
+
+			<!-- Éléments graphiques -->
+			<h3>Éléments graphiques</h3>
+			<ul class="liste-sources">
+				<li>
+					<a href="https://www.flaticon.com" target="_blank" rel="noopener">Flaticon</a>: favicon du site.
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<div class="reseaux-sociaux">
+			<a href="#top"><img id="ancrage" src="../images/fleche-vers-le-haut.png" alt="Revenir en haut de la page"></a>
+		</div>
+		<div class="phrase-du-footer">
+			<p>Au tout début le titre du site était "Pate Bolognaise", le meilleur titre que j'ai jamais trouvé.</p>
+			<address>
+				IUT d'Aix-Marseille - Département Informatique<br>
+				413 avenue Gaston Berger, 13100 Aix-en-Provence
+			</address>
+		</div>
+		<div class="ancrage">
+			<a href="https://www.mickael-martin-nevot.com/univ-amu/iut/but-informatique/developpement-d-interfaces-web/" target="_blank"><img id="MMN" src="https://www.mickael-martin-nevot.com/_assets/images/logo/sypher-blue.webp" alt="Site du cour de déleloppement web de Martin Nevot"></a>
+			<a href="https://www.instagram.com/iutaixmars/?st_source=ai_overview" target="_blank"><img id="insta" src="./logo-instagram.jpg" alt="Page instragram iut informatique"></a>
+		</div>
+	</footer>
+
+	</body>
+</html>
