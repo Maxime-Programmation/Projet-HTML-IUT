@@ -271,9 +271,8 @@ a{
         height: auto;              /* 6vw est trop petit sur mobile */
         padding: 10px 2vw;
         font-size: 3vw;
-    }
-
-    footer img {
+        img {
         height: 10vw;
+        }
     }
 }
