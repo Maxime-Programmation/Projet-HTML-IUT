@@ -1,5 +1,5 @@
 body{
-    background-image: url("./images/echequier.png");
+    background-image: url("../images/echequier.png");
     background-size: contain;
     backdrop-filter: blur(8px);
     margin: 0 5vw; /*marge a droite et gauche de 5%*/
