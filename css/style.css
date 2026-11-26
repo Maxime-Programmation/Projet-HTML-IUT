@@ -157,12 +157,11 @@ footer{
 		height: 4vw;
 		width: auto;
 	}
-	.reseaux-sociaux{
-		justify-content: flex-end;
-	}
-	.ancrage{
-		justify-content: flex-start;
-	}
+    .phrase-du-footer{
+        display: flex;
+        flex-direction: column;
+	    align-items : center;
+    }
 }
 
 .Les-grands-joueurs{
