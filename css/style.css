@@ -1,13 +1,21 @@
 body{
-    background-image: url("test.png");
-    margin-left: 5%;
-    margin-right: 5%;
+    background-image: url("echequier.png");
+    background-size: contain;
+    backdrop-filter: blur(8px);
+    margin: 0 5vw; /*marge a droite et gauche de 5%*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     display: flex;
     align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
     margin-bottom: 100px;
+    background-color: gray;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    padding: 0 1vw;
 }
 
 .titre{
@@ -164,10 +172,12 @@ footer{
     }
 }
 
+
 .Les-grands-joueurs{
 	img{
-		height: 8vw;
+		height: 10vw;
 		width: auto;
+        border-radius: 1vw;
 	}
 	display: flex;
 	flex-direction: row;    
@@ -182,4 +192,77 @@ footer{
 		border: 0.3vw solid black;
 		padding: 0.5vw;
     }
+}
+
+#plateau{
+    height: 25vw;
+	width: 25vw;
+}
+
+h2{
+    padding: 3vw;
+}
+
+@media (max-width: 768px) {
+    body{
+		font-size: 3vw;
+    }
+    
+    #plateau{
+		height: 50vw;
+		width: 50vw;
+	}
+	
+	.Les-grands-joueurs{
+		img{
+			height: 20vw;
+			width: auto;
+        border-radius: 1.5vw;
+		}
+		display: flex;
+		flex-direction: row;    
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 2vw;
+		.joueurs{
+			min-height: 4vw;
+			max-width: 55vw;
+			font-size: 2vw;
+			border: 0.3vw solid black;
+			padding: 0.5vw;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+    body{
+		font-size: 3vw;
+    }
+    
+    #plateau{
+		height: 50vw;
+		width: 50vw;
+	}
+	
+	.Les-grands-joueurs{
+		img{
+			height: 15vw;
+			width: auto;
+        border-radius: 1.5vw;
+		}
+		display: flex;
+		flex-direction: row;    
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 2vw;
+		.joueurs{
+			min-height: 4vw;
+			max-width: 50vw;
+			font-size: 2.5vw;
+			border: 0.3vw solid black;
+			padding: 0.5vw;
+		}
+	}
 }
