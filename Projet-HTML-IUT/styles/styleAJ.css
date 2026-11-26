@@ -24,8 +24,7 @@ footer{
     margin-left: -5vw;
     margin-right: -5vw;
     padding: 0 1vw;
-	margin-bottom: 0px;
-    margin-top: 10vw;
+    margin-top: 5vw;
 	img{
 		height: 4vw;
 		width: auto;
@@ -167,14 +166,22 @@ p {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	padding: 3vw;
 	img {
 		height: 20vw;
 		width: 20vw;
 	}
 	.piece {
+		img {
+			height: 10vw;
+			width: 10vw;
+		}
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: space-around;
+		flex: 0 0 40%;
+		padding: 0 5vw;
 	}
 }
 
@@ -195,4 +202,43 @@ video {
 	}
 	display: flex;
 	flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    body{
+		font-size: 3vw;
+    }
+    	
+	.apprentissage{
+		img{
+			height: 26vw;
+			width: auto;
+        border-radius: 1.5vw;
+		}
+		display: flex;
+		flex-direction: row;    
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 2vw;
+	}
+	video {
+		height: 32vw;
+		width: 32vw;
+	}
+	.action {
+		img {
+			height:26vw;
+			width: 26vw;
+		}
+	}
+
+	footer {
+        height: auto;              /* 6vw est trop petit sur mobile */
+        padding: 10px 2vw;
+        font-size: 3vw;
+        img {
+        height: 10vw;
+        }
+    }
 }
