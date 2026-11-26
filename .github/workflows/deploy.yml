@@ -1,0 +1,37 @@
+name: Déploiement sur Alwaysdata
+
+on:
+  push:
+    branches: [main]      # à adapter si ta branche principale s'appelle autrement
+  workflow_dispatch:      # permet aussi de lancer à la main depuis l'onglet Actions
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Préparer la connexion SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.ALWAYSDATA_HOST }}
+          SSH_PORT: ${{ secrets.ALWAYSDATA_PORT }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts
+
+      - name: Envoyer les fichiers sur le serveur
+        env:
+          SSH_USER: ${{ secrets.ALWAYSDATA_USERNAME }}
+          SSH_HOST: ${{ secrets.ALWAYSDATA_HOST }}
+          SSH_PORT: ${{ secrets.ALWAYSDATA_PORT }}
+        run: |
+          rsync -avz --delete \
+            --exclude='.git' \
+            --exclude='.github' \
+            -e "ssh -i ~/.ssh/id_ed25519 -p $SSH_PORT" \
+            ./ "$SSH_USER@$SSH_HOST:~/www/"
