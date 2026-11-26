@@ -229,31 +229,8 @@ a{
     display: block;
 }
 
-.Les-grands-joueurs a {
-    color: #9d6bff;            /* liens lisibles sur fond sombre */
-}
-
-/*style pour ecran de moins de 768px (tablettes et mobiles)*/
-@media (max-width: 768px) {
-    header {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .conteneur {
-        margin-left: 0;
-    }
-
-    .titre {
-        font-size: 28px;
-    }
-
-    footer {
-        height: auto;
-        padding: 10px 2vw;
-        font-size: 3vw;
-        img {
-            height: 10vw;
-        }
-    }
+.Les-grands-joueurs{
+	.joueurs{
+		background-color: rgba(24, 27, 38, 0.93);
+	}
 }
