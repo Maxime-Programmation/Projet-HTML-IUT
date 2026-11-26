@@ -229,8 +229,56 @@ a{
     display: block;
 }
 
-.Les-grands-joueurs{
-	.joueurs{
-		background-color: rgba(24, 27, 38, 0.93);
-	}
+.Les-grands-joueurs a {
+    color: #9d6bff;
+}
+
+@media (max-width: 1024px) {
+    footer {
+        font-size: 1.5vw;
+        height: 9vw;
+    }
+
+    footer img {
+        height: 6vw;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 8vw;
+    }
+
+    .conteneur {
+        margin-left: 0;
+    }
+
+    .titre {
+        font-size: 28px;
+    }
+
+    footer {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px 4vw;
+        font-size: 3vw;
+    }
+
+    footer img {
+        height: 10vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .titre {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 3.5vw;
+    }
 }
