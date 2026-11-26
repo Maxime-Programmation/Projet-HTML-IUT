@@ -11,7 +11,7 @@ body{
 header {
     display: flex;
     align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
-    margin-bottom: 100px;
+    margin-bottom: 5vw;
 }
 
 .titre{
