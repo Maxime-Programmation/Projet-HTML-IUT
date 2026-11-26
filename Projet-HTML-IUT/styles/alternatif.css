@@ -19,7 +19,7 @@ footer{
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	img{
-		height: 100px;
+		height: 4vw;
 		width: auto;
 	}
 	.reseaux-sociaux{
