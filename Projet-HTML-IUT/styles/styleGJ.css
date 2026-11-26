@@ -48,7 +48,7 @@ a{
 }
 
 .bouton{
-    background-color: white;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: black;
@@ -186,7 +186,7 @@ footer{
 	.joueurs{
 		min-height: 4vw;
 		max-width: 65vw;
-		font-size: 1.5vw;
+		font-size: 1vw;
 		border-radius: 10px;
 		background-color: white;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -203,57 +203,66 @@ h2{
     padding: 3vw;
 }
 
-/*style pour ecran de moins de 768px (tablettes et mobiles)*/
 @media (max-width: 768px) {
-    header {
-        flex-wrap: wrap;
-        gap: 10px;
+    body{
+		font-size: 3vw;
     }
+    
+    #plateau{
+		height: 50vw;
+		width: 50vw;
+	}
+	
+	.Les-grands-joueurs{
+		img{
+			height: 20vw;
+			width: auto;
+        border-radius: 1.5vw;
+		}
+		display: flex;
+		flex-direction: row;    
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 2vw;
+		.joueurs{
+			min-height: 4vw;
+			max-width: 55vw;
+			font-size: 2vw;
+			border: 0.3vw solid black;
+			padding: 0.5vw;
+		}
+	}
+}
 
-    .conteneur {
-        margin-left: 0;
+@media (max-width: 400px) {
+    body{
+		font-size: 3vw;
     }
-
-    .titre {
-        font-size: 28px;
-    }
-
-    #plateau {
-        display: block;
-        width: 60vw;
-        height: 60vw;
-        margin: 0 auto;
-    }
-
-    h2 {
-        padding: 5vw 0;
-        font-size: 20px;
-    }
-
-    .Les-grands-joueurs {
-        grid-template-columns: 1fr;
-        gap: 3vw;
-    }
-
-    .Les-grands-joueurs img {
-        width: 40vw;
-        height: auto;
-        justify-self: center;
-        border-radius: 2vw;
-    }
-
-    .Les-grands-joueurs .joueurs {
-        font-size: 16px;
-        padding: 20px;
-        margin-bottom: 5vw;
-    }
-
-    footer {
-        height: auto;
-        padding: 10px 2vw;
-        font-size: 3vw;
-        img {
-            height: 10vw;
-        }
-    }
+    
+    #plateau{
+		height: 50vw;
+		width: 50vw;
+	}
+	
+	.Les-grands-joueurs{
+		img{
+			height: 15vw;
+			width: auto;
+        border-radius: 1.5vw;
+		}
+		display: flex;
+		flex-direction: row;    
+		align-items: flex-start;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 2vw;
+		.joueurs{
+			min-height: 4vw;
+			max-width: 50vw;
+			font-size: 2.5vw;
+			border: 0.3vw solid black;
+			padding: 0.5vw;
+		}
+	}
 }
