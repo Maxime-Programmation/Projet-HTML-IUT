@@ -27,8 +27,7 @@ a{
 .conteneur {
     display: flex;
     margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
-    margin-right: 20px; /* Ajoute un espace à droite du conteneur */
-    gap: 50px;
+    gap: 1vw;
 }
 
 #styleAlternatif {
