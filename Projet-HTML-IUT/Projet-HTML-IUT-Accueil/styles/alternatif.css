@@ -1,0 +1,229 @@
+body{
+    background-color: #0f1117;
+    color: #e6e6e6;
+    background-size: contain;
+    backdrop-filter: blur(8px);
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+footer{
+	background-color: #05060a;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	img{
+		height: 100px;
+		width: auto;
+	}
+	.reseaux-sociaux{
+		justify-content: flex-end;
+	}
+	.ancrage{
+		justify-content: flex-start;
+	}
+}
+
+.titre{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#e6e6e6;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+/*css pour le header*/
+
+a{
+    text-decoration: none;
+    color: #9d6bff;
+}
+.conteneur {
+    display: flex;
+    margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
+    gap: 1vw;
+}
+
+#styleAlternatif {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:#0f1117;
+    border-radius: 5px;
+    background-color:#9d6bff;
+}
+
+/*affichage bouton principaux*/
+
+.zone-principale{
+    display: flex;
+    margin-bottom: 5vw;
+}
+
+.colonne-gauche{
+    margin-bottom: 5vw;
+}
+
+.bouton{
+    background-color: #181b26;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e6e6e6;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.boutonFondNoir{
+    color: #0f1117;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #9d6bff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.groupe-boutons{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+/*gif echequier*/
+
+#gifEchequier{
+    margin-left: auto;
+    margin-right: 15vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+}
+
+/*formulaire*/
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: #181b26;
+    color: #e6e6e6;
+    max-width: 450px;
+    margin: 0 0 5vw 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form input[type="text"],
+#form textarea {
+    width: 100%;
+    box-sizing: border-box; /* évite que le champ déborde */
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #3a3f55;
+    background-color: #0f1117;
+    color: #e6e6e6;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#choixSexe {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px 0 30px 0; /* 30px d'espace en dessous, avant la note */
+}
+
+#ligneNote {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/*paragraphe echec*/
+
+.histoire-echecs{
+    background-color: rgba(24, 27, 38, 0.93); /* fond sombre un peu transparent */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto 7.5vw auto;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.origine-echec{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.zone-entree{
+    border-radius: 5px;
+}
+
+
+/*menu deroulant*/
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 30px; /* Le place à gauche, à 30px à droite du titre Accueil */
+}
+
+.menu li {
+    float: left;
+    width: auto;
+}
+
+.menu li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #e6e6e6;
+    background: #181b26;
+    padding: 6px 10px;
+    border: 1px solid #3a3f55;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu li a:active {background-color: #808080}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a {
+    display: block;
+    color: #e6e6e6;
+    text-decoration: none;
+    background-color: #181b26;
+    border-color: #3a3f55;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #2b2f42;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
