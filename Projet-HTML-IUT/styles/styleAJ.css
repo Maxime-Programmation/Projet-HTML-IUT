@@ -1,16 +1,32 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
 body{
     background-image: url("../images/echequier.png");
     background-size: contain;
     backdrop-filter: blur(8px);
     margin: 0 5vw; /*marge a droite et gauche de 5%*/
     min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Aligne verticalement au centre et empêche le bouton de s'étirer en hauteur */
     margin-bottom: 5vw;
 }
 
@@ -19,10 +35,19 @@ footer{
 	font-size: 1vw;
 	background-color: gray;
 	height: 6vw;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items : center;
-	flex-direction: row-reverse;
-	justify-content: space-between;
+	-webkit-box-align : center;
+	    -ms-flex-align : center;
+	        align-items : center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
     margin-left: -5vw;
     margin-right: -5vw;
     padding: 0 1vw;
@@ -32,9 +57,16 @@ footer{
 		width: auto;
 	}
     .phrase-du-footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-	    align-items : center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+	    -webkit-box-align : center;
+	        -ms-flex-align : center;
+	            align-items : center;
     }
 }
 
@@ -52,6 +84,8 @@ a{
 
 
 .conteneur {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
     gap: 1vw;
@@ -66,6 +100,8 @@ a{
 }
 
 .zone-principale{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 5vw;    
 }
@@ -95,8 +131,12 @@ a{
 }
 
 .groupe-boutons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 1vw;
 }
 
@@ -165,9 +205,15 @@ p {
 }
 
 .apprentissage {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	padding: 3vw;
 	img {
 		height: 20vw;
@@ -178,11 +224,20 @@ p {
 			height: 10vw;
 			width: 10vw;
 		}
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		flex: 0 0 40%;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 40%;
+		        flex: 0 0 40%;
 		padding: 0 5vw;
 	}
 }
@@ -193,8 +248,11 @@ video {
 }
 
 .schema_piece {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 .action {
@@ -202,8 +260,13 @@ video {
 		height:20vw;
 		width: 20vw;
 	}
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 h1{
@@ -216,7 +279,8 @@ h1{
 .bloc-texte {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     padding: 15px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -233,11 +297,21 @@ h1{
 			width: auto;
         border-radius: 1.5vw;
 		}
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: row;    
-		align-items: flex-start;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;    
+		-webkit-box-align: start;    
+		    -ms-flex-align: start;    
+		        align-items: flex-start;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 		gap: 2vw;
 	}
 	video {
