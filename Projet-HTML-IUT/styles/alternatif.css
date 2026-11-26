@@ -228,3 +228,45 @@ a{
 .menu li:hover .sousmenu {
     display: block;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;           /* le menu passe sous le titre au lieu de déborder */
+        gap: 10px;
+    }
+
+    .conteneur {
+        margin-left: 0;
+    }
+
+    .titre {
+        font-size: 28px;
+    }
+
+    .zone-principale {
+        flex-direction: column;    /* boutons au-dessus, gif en dessous */
+    }
+
+    #gifEchequier {
+        margin: 20px auto 0 auto;  /* centré au lieu de décalé à droite */
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .histoire-echecs {
+        padding: 20px;
+    }
+
+    .origine-echec {
+        font-size: 16px;
+    }
+
+    footer {
+        height: auto;              /* 6vw est trop petit sur mobile */
+        padding: 10px 2vw;
+        font-size: 3vw;
+        img {
+            height: 10vw;
+        }
+    }
+}
