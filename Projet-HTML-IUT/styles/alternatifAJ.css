@@ -236,3 +236,7 @@ p{
 h1{
 	color: white;
 }
+
+.bloc-texte{
+	background-color: rgba(24, 27, 38, 0.93);
+}
