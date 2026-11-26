@@ -203,44 +203,11 @@ h2{
     padding: 3vw;
 }
 
-/*tablettes (jusqu'à 1024px)*/
-@media (max-width: 1024px) {
-    .Les-grands-joueurs {
-        grid-template-columns: 18vw 1fr;
-        gap: 3vw;
-    }
-
-    .Les-grands-joueurs img {
-        width: 18vw;
-        border-radius: 1.5vw;
-    }
-
-    .joueurs {
-        font-size: 15px;
-        padding: 2vw 2.5vw;
-    }
-
-    #plateau {
-        width: 35vw;
-        height: 35vw;
-    }
-
-    footer {
-        font-size: 1.5vw;
-        height: 9vw;
-    }
-
-    footer img {
-        height: 6vw;
-    }
-}
-
-/*mobiles (jusqu'à 768px)*/
+/*style pour ecran de moins de 768px (tablettes et mobiles)*/
 @media (max-width: 768px) {
     header {
-        flex-wrap: wrap;
+        flex-wrap: wrap;           /* le menu passe sous le titre au lieu de déborder */
         gap: 10px;
-        margin-bottom: 8vw;
     }
 
     .conteneur {
@@ -252,66 +219,38 @@ h2{
     }
 
     #plateau {
-        display: block;
-        width: 70vw;
-        height: 70vw;
-        margin: 0 auto;
+        width: 60vw;               /* même taille que le gif de l'index */
+        height: 60vw;
+        margin: 0 auto;            /* centré */
     }
 
     h2 {
-        padding: 6vw 0;
+        padding: 5vw 0;
         font-size: 20px;
-        text-align: center;
     }
 
     .Les-grands-joueurs {
-        grid-template-columns: 1fr;   /* image au-dessus du texte */
+        grid-template-columns: 1fr;   /* image au-dessus, texte en dessous */
         gap: 3vw;
     }
 
     .Les-grands-joueurs img {
         width: 40vw;
-        justify-self: center;
-        border-radius: 3vw;
+        justify-self: center;         /* image centrée */
     }
 
     .joueurs {
-        font-size: 15px;
-        padding: 4vw;
-        margin-bottom: 6vw;
+        font-size: 16px;              /* même taille de texte que .origine-echec */
+        padding: 20px;                /* même padding que .histoire-echecs */
+        margin-bottom: 5vw;
     }
 
     footer {
-        height: auto;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        padding: 15px 4vw;
+        height: auto;              /* 6vw est trop petit sur mobile */
+        padding: 10px 2vw;
         font-size: 3vw;
-        text-align: center;
-    }
-
-    footer img {
-        height: 10vw;
-    }
-}
-
-/*petits mobiles (jusqu'à 480px)*/
-@media (max-width: 480px) {
-    .titre {
-        font-size: 24px;
-    }
-
-    .joueurs {
-        font-size: 14px;
-        padding: 5vw;
-    }
-
-    .Les-grands-joueurs img {
-        width: 55vw;
-    }
-
-    footer {
-        font-size: 3.5vw;
+        img {
+            height: 10vw;
+        }
     }
 }
