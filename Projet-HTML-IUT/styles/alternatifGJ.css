@@ -229,6 +229,8 @@ a{
     display: block;
 }
 
-
-
-    background-color: rgba(24, 27, 38, 0.93);
+.Les-grands-joueurs{
+	.joueurs{
+		background-color: rgba(24, 27, 38, 0.93);
+	}
+}
