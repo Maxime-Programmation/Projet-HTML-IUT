@@ -2,8 +2,10 @@ body{
     background-image: url("../image/echequier.png");
     background-size: contain;
     backdrop-filter: blur(8px);
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin: 0 5vw; /*marge a droite et gauche de 5%*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
