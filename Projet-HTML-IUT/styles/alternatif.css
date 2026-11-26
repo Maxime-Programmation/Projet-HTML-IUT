@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.5.15,
+* Autoprefixer: v10.5.0
+* Browsers: last 4 version
+*/
+
 body{
     background-image: url("../images/echequierInverse.png");
     color: #e6e6e6;
@@ -8,26 +15,42 @@ body{
 }
 
 header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 5vw;
 }
 
 footer{
 	background-color: #05060a;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	img{
 		height: 4vw;
 		width: auto;
 	}
 	.reseaux-sociaux{
-		justify-content: flex-end;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
 	}
 	.ancrage{
-		justify-content: flex-start;
-		filter: invert(1)
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-webkit-filter: invert(1);
+		        filter: invert(1)
 	}
 }
 
@@ -45,6 +68,8 @@ a{
     color: #9d6bff;
 }
 .conteneur {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: auto; /* Pousse tout le bloc conteneur tout à droite du header */
     gap: 1vw;
@@ -61,6 +86,8 @@ a{
 /*affichage bouton principaux*/
 
 .zone-principale{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 5vw;
 }
@@ -90,8 +117,12 @@ a{
 }
 
 .groupe-boutons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 1vw;
 }
 
@@ -108,22 +139,29 @@ a{
 /*formulaire*/
 
 #form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #181b26;
     color: #e6e6e6;
     max-width: 450px;
     margin: 0 0 5vw 0;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #form input[type="text"],
 #form textarea {
     width: 100%;
-    box-sizing: border-box; /* évite que le champ déborde */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; /* évite que le champ déborde */
     padding: 10px;
     margin: 5px 0 15px 0;
     border: 1px solid #3a3f55;
@@ -134,15 +172,23 @@ a{
 }
 
 #choixSexe {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 8px;
     margin: 5px 0 30px 0; /* 30px d'espace en dessous, avant la note */
 }
 
 #ligneNote {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 10px;
     margin-bottom: 20px;
 }
@@ -152,11 +198,13 @@ a{
 .histoire-echecs{
     background-color: rgba(24, 27, 38, 0.93); /* fond sombre un peu transparent */
     width: 100%;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0 auto 7.5vw auto;
     padding: 40px 50px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .origine-echec{
@@ -231,7 +279,8 @@ a{
 
 @media (max-width: 768px) {
     header {
-        flex-wrap: wrap;           /* le menu passe sous le titre au lieu de déborder */
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;           /* le menu passe sous le titre au lieu de déborder */
         gap: 10px;
     }
 
@@ -244,7 +293,10 @@ a{
     }
 
     .zone-principale {
-        flex-direction: column;    /* boutons au-dessus, gif en dessous */
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;    /* boutons au-dessus, gif en dessous */
     }
 
     #gifEchequier {
