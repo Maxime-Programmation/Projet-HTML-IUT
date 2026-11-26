@@ -260,11 +260,3 @@ h1{
         }
     }
 }
-
-.bloc-texte p {
-    background-color: transparent;
-    box-shadow: none;
-    border-radius: 0;
-    padding: 0;
-    margin: 0 0 15px 0;
-}
