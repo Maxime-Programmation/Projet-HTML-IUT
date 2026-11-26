@@ -27,6 +27,7 @@ footer{
 	}
 	.ancrage{
 		justify-content: flex-start;
+		filter: invert(1)
 	}
 }
 
