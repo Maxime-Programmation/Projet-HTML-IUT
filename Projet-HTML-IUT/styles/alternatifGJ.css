@@ -228,3 +228,9 @@ a{
 .menu li:hover .sousmenu {
     display: block;
 }
+
+.Les-grands-joueurs{
+	.joueurs{
+		background-color: rgba(24, 27, 38, 0.93);
+	}
+}
