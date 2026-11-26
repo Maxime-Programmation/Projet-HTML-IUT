@@ -2,7 +2,7 @@
 
 Au minimum tous les points suivants doivent être respectés : 
 
-− le site Web doit être hébergé et accessible sur le Web (2,5 %) ; <br>
+<s>− le site Web doit être hébergé et accessible sur le Web (2,5 %) ; </s><br>
 <s>− un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ; </s><br> 
 <s>− la balise meta description devra être renseignée (1,25 %) ; </s><br>
 <s>− le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ; </s><br>
@@ -19,9 +19,9 @@ d'une autre feuille de style (la plus différente possible) de la feuille de sty
 (7,5 %) ;</s> <br>
 − le site Web devra être adaptatif à la fois sur smartphones, tablettes et ordinateurs (5 %) ; <br>
 <s>− bonne architecture des répertoires (2,5 %) ; </s><br>
-− programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
+<s>− programmation soignée en HTML et CSS avec usage pertinent de balises sémantiques, 
 convention de nommage en anglais, indentation et commentarisation du code source 
-(5 %)  <br>
+(5 %)  </s><br>
 <s>− l’accessibilité,  le  référencement,  y  compris  le  référencement  local  (avec,  par  défaut, 
 l’adresse du département informatique) et réseaux sociaux (10 %) ainsi que l’optimisation 
 avec la compression des images (1,25 %)</s>, l’utilisation des préfixes propriétaires et la 
