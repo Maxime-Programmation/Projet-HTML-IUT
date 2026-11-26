@@ -206,7 +206,7 @@ h2{
 /*style pour ecran de moins de 768px (tablettes et mobiles)*/
 @media (max-width: 768px) {
     header {
-        flex-wrap: wrap;           /* le menu passe sous le titre au lieu de déborder */
+        flex-wrap: wrap;
         gap: 10px;
     }
 
@@ -219,9 +219,10 @@ h2{
     }
 
     #plateau {
-        width: 60vw;               /* même taille que le gif de l'index */
+        display: block;
+        width: 60vw;
         height: 60vw;
-        margin: 0 auto;            /* centré */
+        margin: 0 auto;
     }
 
     h2 {
@@ -230,23 +231,25 @@ h2{
     }
 
     .Les-grands-joueurs {
-        grid-template-columns: 1fr;   /* image au-dessus, texte en dessous */
+        grid-template-columns: 1fr;
         gap: 3vw;
     }
 
     .Les-grands-joueurs img {
         width: 40vw;
-        justify-self: center;         /* image centrée */
+        height: auto;
+        justify-self: center;
+        border-radius: 2vw;
     }
 
-    .joueurs {
-        font-size: 16px;              /* même taille de texte que .origine-echec */
-        padding: 20px;                /* même padding que .histoire-echecs */
+    .Les-grands-joueurs .joueurs {
+        font-size: 16px;
+        padding: 20px;
         margin-bottom: 5vw;
     }
 
     footer {
-        height: auto;              /* 6vw est trop petit sur mobile */
+        height: auto;
         padding: 10px 2vw;
         font-size: 3vw;
         img {
